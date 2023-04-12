@@ -1,0 +1,41 @@
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\appsettings.Development.json
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\appsettings.json
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\ocelot.json
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\Sliit.MTIT. Ocelot.exe
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\Sliit.MTIT. Ocelot.deps.json
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\Sliit.MTIT. Ocelot.runtimeconfig.json
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\Sliit.MTIT. Ocelot.dll
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\Sliit.MTIT. Ocelot.pdb
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\FluentValidation.dll
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\Ocelot.dll
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\Sliit.MTIT. Ocelot.csproj.AssemblyReference.cache
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\Sliit.MTIT. Ocelot.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\Sliit.MTIT. Ocelot.AssemblyInfoInputs.cache
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\Sliit.MTIT. Ocelot.AssemblyInfo.cs
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\Sliit.MTIT. Ocelot.csproj.CoreCompileInputs.cache
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\Sliit.MTIT. Ocelot.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\Sliit.MTIT. Ocelot.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\staticwebassets\msbuild.Sliit.MTIT. Ocelot.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\staticwebassets\msbuild.build.Sliit.MTIT. Ocelot.props
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Sliit.MTIT. Ocelot.props
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Sliit.MTIT. Ocelot.props
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\staticwebassets.build.json
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\staticwebassets.development.json
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\scopedcss\bundle\Sliit.MTIT. Ocelot.styles.css
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\Sliit.MTIT. Ocelot.csproj.CopyComplete
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\Sliit.MTIT. Ocelot.dll
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\refint\Sliit.MTIT. Ocelot.dll
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\Sliit.MTIT. Ocelot.pdb
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\Sliit.MTIT. Ocelot.genruntimeconfig.cache
+D:\Projects\mtit_lab\Sliit.MTIT\Sliit.MTIT. Ocelot\obj\Debug\net6.0\ref\Sliit.MTIT. Ocelot.dll

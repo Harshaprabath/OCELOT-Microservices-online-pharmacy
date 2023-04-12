@@ -1,0 +1,103 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5071"
+  },
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/user",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/user",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5284
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/user/{Id}",
+      "DownstreamPathTemplate": "/api/user/{Id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5284
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/supplier",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/supplier",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5120
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/supplier/{Id}",
+      "DownstreamPathTemplate": "/api/supplier/{Id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5120
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/customer",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/customer",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5209
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/customer/{Id}",
+      "DownstreamPathTemplate": "/api/customer/{Id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5209
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/inventory",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/inventory",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5145
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/inventory/{Id}",
+      "DownstreamPathTemplate": "/api/inventory/{Id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5145
+        }
+      ]
+    }
+  ]
+}

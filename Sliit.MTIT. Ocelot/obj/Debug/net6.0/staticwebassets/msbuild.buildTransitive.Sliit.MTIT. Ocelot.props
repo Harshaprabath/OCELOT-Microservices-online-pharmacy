@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Sliit.MTIT. Ocelot.props" />
+</Project>
