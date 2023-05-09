@@ -6,9 +6,9 @@
 
         Models.Customer? GetCustomer(int id);
 
-        Models.Customer? AddCustomer(Models.Customer student);
+        Models.Customer? AddCustomer(Models.Customer customer);
 
-        Models.Customer? UpdateCustomer(Models.Customer student);
+        Models.Customer? UpdateCustomer(Models.Customer customer);
 
         bool? DeleteCustomer(int id);
     }

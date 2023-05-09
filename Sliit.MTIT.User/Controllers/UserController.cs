@@ -30,5 +30,26 @@ namespace Sliit.MTIT.User.Controllers
             return _userService.GetUser(id) != null ? Ok(_userService.GetUser(id)) : NoContent();
 
         }
+
+        [HttpPost]
+        public IActionResult Post([FromBody] Models.User user)
+        {
+            return Ok(_userService.AddUser(user));
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Put([FromBody] Models.User user)
+        {
+            return Ok(_userService.UpdateUser(user));
+        }
+
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var result = _userService.DeleteUser(id);
+            return result.HasValue & result == true ? Ok($"user with ID: {id} got deleted successfully.")
+                : BadRequest($"Unable to delete the user with ID: {id}.");
+        }
     }
 }

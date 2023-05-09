@@ -30,5 +30,26 @@ namespace Sliit.MTIT.Inventory.Controllers
             return _inventoryService.GetInventory(id) != null ? Ok(_inventoryService.GetInventory(id)) : NoContent();
 
         }
+
+        [HttpPost]
+        public IActionResult Post([FromBody] Models.Inventory inventory)
+        {
+            return Ok(_inventoryService.AddInventory(inventory));
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Put([FromBody] Models.Inventory inventory)
+        {
+            return Ok(_inventoryService.UpdateInventory(inventory));
+        }
+
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var result = _inventoryService.DeleteInventory(id);
+            return result.HasValue & result == true ? Ok($"inventory with ID: {id} got deleted successfully.")
+                : BadRequest($"Unable to delete the inventory with ID: {id}.");
+        }
     }
 }

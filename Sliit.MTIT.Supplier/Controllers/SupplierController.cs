@@ -31,6 +31,27 @@ namespace Sliit.MTIT.Supplier.Controllers
 
         }
 
+        [HttpPost]
+        public IActionResult Post([FromBody] Models.Supplier supplier)
+        {
+            return Ok(_supplierService.AddSupplier(supplier));
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Put([FromBody] Models.Supplier supplier)
+        {
+            return Ok(_supplierService.UpdateSupplier(supplier));
+        }
+
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var result = _supplierService.DeleteSupplier(id);
+            return result.HasValue & result == true ? Ok($"supplier with ID: {id} got deleted successfully.")
+                : BadRequest($"Unable to delete the supplier with ID: {id}.");
+        }
+
 
     }
 }

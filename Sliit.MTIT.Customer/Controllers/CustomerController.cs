@@ -30,6 +30,27 @@ namespace Sliit.MTIT.Customer.Controllers
 
         }
 
+        [HttpPost]
+        public IActionResult Post([FromBody] Models.Customer customer)
+        {
+            return Ok(_customerService.AddCustomer(customer));
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Put([FromBody] Models.Customer customer)
+        {
+            return Ok(_customerService.UpdateCustomer(customer));
+        }
+
+        
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var result = _customerService.DeleteCustomer(id);
+            return result.HasValue & result == true ? Ok($"customer with ID: {id} got deleted successfully.")
+                : BadRequest($"Unable to delete the customer with ID: {id}.");
+        }
+
 
     }
 }

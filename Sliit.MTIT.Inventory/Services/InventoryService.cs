@@ -10,6 +10,18 @@ namespace Sliit.MTIT.Inventory.Services
             return inventory;
         }
 
+        public bool? DeleteInventory(int id)
+        {
+
+            Models.Inventory selectedInventory = InventoryMockDataService.inventories.FirstOrDefault(x => x.Id == id);
+            if (selectedInventory != null)
+            {
+                InventoryMockDataService.inventories.Remove(selectedInventory);
+                return true;
+            }
+            return false;
+        }
+
         public List<Models.Inventory> GetInventories()
         {
             return InventoryMockDataService.inventories;
@@ -18,6 +30,19 @@ namespace Sliit.MTIT.Inventory.Services
         public Models.Inventory? GetInventory(int id)
         {
             return InventoryMockDataService.inventories.FirstOrDefault(x => x.Id == id);
+        }
+
+        public Models.Inventory? UpdateInventory(Models.Inventory inventory)
+        {
+            Models.Inventory selectedInventory = InventoryMockDataService.inventories.FirstOrDefault(x => x.Id == inventory.Id);
+            if (selectedInventory != null)
+            {
+                
+                selectedInventory.Code = inventory.Code;
+                selectedInventory.Name = inventory.Name;
+                return selectedInventory;
+            }
+            return selectedInventory;
         }
     }
 }
